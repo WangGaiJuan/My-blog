@@ -12,7 +12,7 @@ export default class NewFile extends React.Component {
 
                     <div className="row log">
                         <div className="col-sm-12 col-xs-12">
-                            <span>Author:{this.state.author}</span>
+                            <span>Author:{this.state.title}</span>
                         </div>
                     </div>
 
@@ -34,7 +34,6 @@ export default class NewFile extends React.Component {
                             <img key={i} src={i}/>)
                         }
                     </div>
-
 
                 </div>
             </div>
