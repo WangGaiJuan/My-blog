@@ -5,7 +5,9 @@ import webpackHotMiddleware from 'webpack-hot-middleware';
 import express from 'express';
 import db from './db/db';
 import apiRouter from './api/routerApi';
+//用于解析客户端请求的body中的内容
 import bodyParser from 'body-parser';
+//实现上传文件
 import fileUpload from 'express-fileupload';
 //import cookieParser from 'cookie-parser';
 
