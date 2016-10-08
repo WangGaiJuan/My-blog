@@ -1,3 +1,5 @@
+//发表文章
+
 import  React from 'react';
 import  '../style/edit.css';
 import Header from './header.jsx';

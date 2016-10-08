@@ -9,13 +9,11 @@ import apiRouter from './api/routerApi';
 import bodyParser from 'body-parser';
 //实现上传文件
 import fileUpload from 'express-fileupload';
-//import cookieParser from 'cookie-parser';
 
 
 const app = express();
 app.use(bodyParser.json());
 app.use(fileUpload());
-//app.use(cookieParser());
 
 const compiler = webpack(webpackConfig);
 

@@ -11,30 +11,8 @@ class Index extends React.Component {
         this.state = {
             Articles : [],
             left:0,
-            top:0,
-            CenterPos : {//中间图片
-                left:0,
-                top:0
-            },
-            hPosRange: {//水平方向的取值范围
-                leftSecX:[0,0],
-                rightSecX:[0,0],
-                Y:[0,0]
-            },
-            vPosRange:{//垂直方向的取值范围
-                X:[0,0],
-                topY:[0,0]
-            }
-        }
-    }
-
-    /*重新布局所有图片
-    *centerIndex 指定居中排布哪个图片
-     */
-    rearrange(centerIndex){
-
-    }
-
+            top:0
+    };
 
     componentWillMount (){
         request

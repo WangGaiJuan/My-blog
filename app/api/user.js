@@ -6,7 +6,7 @@ const router = express.Router();
 
 router.post('/', function (req, res, next) {
     const {username, password} = req.body;
-    //userData行为通过将数据写入一个UserData存储区（UserData store）来保存数据
+    //userData行为通过将数据写入一个UserData存储区来保存数据
     const userData = {username, password};
 
     if(userData.username==''||userData.password=='')

@@ -1,3 +1,4 @@
+//注册
 import React from 'react';
 import '../style/origin.css';
 import request from 'superagent';
@@ -78,6 +79,7 @@ class ZhuCe extends React.Component {
 
     //submit
     submitHandler(e) {
+        //取消事件的默认动作
         e.preventDefault();
         request.post('/api/user')
             .send ({
@@ -87,7 +89,7 @@ class ZhuCe extends React.Component {
             .end((err,res) => {
                 if(err) return alert(res.text);
                 alert(res.text);
-                //路由通过URL的hash部分（#）切换，URL的形式类似
+                //路由通过URL的hash部分（#）切换，URL的形式类似，无刷新改变url
                 hashHistory.push('/index');
             })
     }
