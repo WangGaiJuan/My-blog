@@ -1,0 +1,52 @@
+.new_container{
+    width:60%;
+    margin-top:20px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+/*log---start*/
+.log{
+    height:90px;
+    line-height:90px;
+    font-size: 30px;
+    color: #eced4b;
+}
+/*log---end*/
+
+/*title---start*/
+.title .col-xs-12{
+    width:68%;
+    text-align: center;
+    border:1px dashed #0b2634;
+    color: #e3e3e3;
+    margin-left:16%;
+    font-size: 32px;
+}
+/*title---end*/
+
+/*images---start*/
+.Images img{
+    width:30%;
+    float: left;
+    height:200px;
+}
+/*images---end*/
+
+/*contents---start*/
+.contents{
+    overflow:hidden;
+    border:1px solid #f1f3cb;
+    margin-top:20px;
+}
+
+.contents .col-xs-12{
+    width:90%;
+    overflow-x:hidden;
+    overflow-y: hidden;
+    min-height: 180px;
+    margin-left:6%;
+    margin-top:4%;
+    font-size: 26px;
+}
+
+/*contents---end*/

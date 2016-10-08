@@ -1,0 +1,49 @@
+/*注册以及登陆样式*/
+
+/*form---start*/
+.form-set{
+    width:100%;
+    margin:auto;
+    margin-top:90px;
+    font-size:20px;
+    background: rgba(20, 18, 18, 0.3);
+}
+/*form---end*/
+
+/*log---start*/
+.row_log .col-xs-12 h1{
+    line-height:90px;
+    margin:auto;
+    padding-left:10%;
+    color: #eced4b;
+    font-weight: 500;
+}
+/*log---end*/
+
+/*input---start*/
+.input_set{
+    width:80%;
+    line-height:36px;
+    border:none;
+    background: rgba(20, 18, 18, 0.3);
+    margin-left:10%;
+    padding-left:10px;
+    color:#fff;
+}
+
+/*input---end*/
+
+
+/*button---start*/
+.set_btn{
+    width:20%;
+    line-height:32px;
+    text-align:center;
+    margin-top:20px;
+    margin-left:35%;
+    background: rgba(20, 18, 18, 0.5);
+    border:none;
+    float: left;
+    color: #6073ff;
+}
+/*button---end*/
